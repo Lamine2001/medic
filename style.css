@@ -1,0 +1,190 @@
+html{
+    height:100% ;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+   font-weight: 500;;
+
+ }
+
+.img-fluid{
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.text-logo{
+    font-weight: 700;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.nav-link{  
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 10px;
+    
+}
+.nav-link:hover{
+    color: #007bc2;
+    text-decoration: underline;
+}
+
+.navbar-collapse{
+    align-items: end;
+}
+
+.footer{ background-color:rgba(47, 186, 186, 0.501);
+    min-height: 100px;
+}
+
+.box-jumbo{
+ background-image: url(images/pexels-photo-3938022.webp);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height: 500px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.box-jumbo .overlay h1{
+    z-index: 1;
+    font-size: 3rem;
+    font-weight: 1000;
+    color:white;
+    text-align: center;
+}
+.box-jumbo .overlay p{
+    z-index: 2;
+    font-size: 2rem;
+    font-weight: 100;
+    color:white;
+}
+
+.box-cadre{ 
+    margin-top: 20px;
+    min-height: 300px;
+}
+.card-img-top{
+    height: 150px;
+}
+
+.col{
+text-align: center;
+}
+.btn{
+    font-weight: 700;
+    background-color: #007bc2;
+}
+.card-title{
+    color:#007bc2;
+}
+
+.box-service{
+    min-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.espace-employe a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1000px;
+    box-shadow: 10px 10px 10px black;
+    background-color:#007bc2 ;
+    font-weight: 700;
+}
+
+.espace-patient a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1000px;
+    box-shadow: 10px 10px 10px black;
+    background-color:#007bc2 ;
+    font-weight: 700;
+}
+.espace-patient h1,.espace-employe h1{
+    padding-bottom: 20px;
+}
+.img-espace{
+    padding-bottom: 20px;
+}
+
+/* Large screen view */
+
+@media screen and (min-width: 992px) {
+    
+        .container {
+            width: 962px;
+        }
+    }
+
+/* Tablet View */
+@media (max-width: 768px){
+
+    .box-jumbo .overlay h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color:green;
+    }
+    .box-jumbo .overlay p{
+        font-size: 1rem;
+        font-weight: 800;
+        color:green;
+    }
+    
+    ul{
+        border:1px solid;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       
+       
+    }
+    .nav-link:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+   
+   
+    }
+    
+    
+    
+    /* Mobile View */
+    @media (max-width: 400px){
+        .box-jumbo .overlay h1{
+            font-size: 2rem;
+            font-weight: 700;
+            color:green;
+        }
+        .box-jumbo .overlay p{
+            font-size: 0.6rem;
+            font-weight: 800;
+            color:green;
+        }
+        
+        ul{
+            border:1px solid;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           
+           
+        }
+        .nav-link:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+       .box-cadre .row .col{
+            text-align: center;
+            margin-left:30px;
+            margin-top: 20px;
+            }
+
+    }

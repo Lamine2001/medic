@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+
+    width: 100%;
+    background:url(back4.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:blue;
+    padding-left: 20px;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:black
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+   width: 200px;
+   height: 40px; 
+   font-family: 'Times New Roman';
+   background:transparent ;
+   border: 1px solid blanchedalmond;
+   margin-top:13px;
+   border-right: none;
+   font-size: 16px;
+   float: left;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: blue;
+    border:2px solid blue;
+    margin-top: 13px;
+    color:white;
+    font-size:15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+ outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color:#fff;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size:50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+    
+
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:white;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: .4s ease;
+}
+
+.content .cn a{
+
+    text-decoration: none;
+    transition: .3s ease;
+    color: black;
+}
+
+.content .cn a:hover{
+    background-color: #fff;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background-color: #fff;
+    position: absolute;
+    top:-20px;
+    left:870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width:220px ;
+    font-family:sans-serif ;
+    text-align: center;
+    color:#ff7200;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
