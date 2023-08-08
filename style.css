@@ -77,6 +77,11 @@ text-align: center;
 .btn{
     font-weight: 700;
     background-color: #007bc2;
+    margin-top: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+ 
 }
 .card-title{
     color:#007bc2;
@@ -118,6 +123,21 @@ text-align: center;
     padding-bottom: 20px;
 }
 
+/* css formulaire */
+.box-form{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-group label{
+padding-bottom: 10px;
+padding-top: 10px;
+font-weight: 700;
+}
+.esp h1{
+    border-bottom: 1px solid;
+}
 /* Large screen view */
 
 @media screen and (min-width: 992px) {
