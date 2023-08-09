@@ -145,6 +145,13 @@ font-weight: 700;
 }
 #masculin,#feminin{
     margin-left: 20px;}
+.historique{
+    margin-top: 20px;
+}
+.historique h3{
+   text-decoration: underline;
+   color: #007bc2;
+}
 /* Large screen view */
 
 @media screen and (min-width: 992px) {
@@ -160,12 +167,12 @@ font-weight: 700;
     .box-jumbo .overlay h1{
         font-size: 2.5rem;
         font-weight: 700;
-        color:green;
+        color:white;
     }
     .box-jumbo .overlay p{
         font-size: 1rem;
         font-weight: 800;
-        color:green;
+        color:white;
     }
     
     ul{
@@ -189,12 +196,12 @@ font-weight: 700;
         .box-jumbo .overlay h1{
             font-size: 2rem;
             font-weight: 700;
-            color:green;
+            color:white;
         }
         .box-jumbo .overlay p{
             font-size: 0.6rem;
             font-weight: 800;
-            color:green;
+            color:white;
         }
         
         ul{
