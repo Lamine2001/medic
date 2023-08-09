@@ -138,6 +138,13 @@ font-weight: 700;
 .esp h1{
     border-bottom: 1px solid;
 }
+
+/* css formulaire creation dossier patient */
+.group-sexe{
+    display: flex;
+}
+#masculin,#feminin{
+    margin-left: 20px;}
 /* Large screen view */
 
 @media screen and (min-width: 992px) {

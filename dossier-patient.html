@@ -54,20 +54,52 @@
 
 <div class="container">
     <div class="row esp">
-        <h1>Accès Dossier Patient</h1>
+        <h1>Nouveau Patient</h1>
     </div>
     <div class="row box-form">
-        <form action="/action_page.php">
+        <form >
             <div class="form-group">
-              <label for="email">Email address</label>
-              <input type="email" class="form-control" id="email">
+                <label for="prenom">Prenom</label>
+                <input type="text" class="form-control" id="prenom">
             </div>
             <div class="form-group">
-              <label for="pwd">Password</label>
-              <input type="password" class="form-control" id="pwd">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom">
+            </div>
+            <div class="form-group">
+                <label for="dateNais">Date de Naissance</label>
+                <input type="date" class="form-control" id="dateNais">
+            </div>
+            <div class="form-group group-sexe">
+                <label for="sexe">Sexe</label>
+                <input type="radio" id="masculin" name="sexe" value="Masculin">
+                <label for="masculin">Masculin</label><br>
+                <input type="radio" id="feminin" name="sexe" value="Feminin">
+                <label for="feminin">Feminin</label><br>
+            </div>
+            <div class="form-group">
+                <label for="poids">Poids</label>
+                <input type="text" class="form-control" id="poids">
+            </div>
+            <div class="form-group">
+                <label for="taille">Taille</label>
+                <input type="text" class="form-control" id="taille">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="adresse">Adresse</label>
+                <input type="text" class="form-control" id="adresse">
+            </div>
+            <div class="form-group">
+                <label for="telephone">Telephone</label>
+                <input type="text" class="form-control" id="telephone">
             </div>
             
-            <button type="submit" class="btn btn-default">Valider</button>
+            
+            <button type="submit" class="btn btn-default">Creer</button>
           </form>
     </div>
     
